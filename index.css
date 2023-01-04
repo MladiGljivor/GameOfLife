@@ -1,0 +1,52 @@
+.button {
+    background-color: green;
+    width:100%;
+    display:none;
+    font-size: large;
+    border:orange solid 5px;
+    border-radius: 50% solid yellow;
+    margin-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body {
+    background-color: black;
+}
+
+
+
+.name {
+    display: flex;
+    background-color: green;
+    width:100%;
+   
+    font-size: large;
+    border:orange solid 5px;
+    border-radius: 50% solid orange;
+    margin-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.start {
+    background-color: green;
+    width:100%;
+    display:block;
+    font-size: large;
+    border:orange solid 5px;
+    border-radius: 50% solid yellow;
+    margin-top: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.start:hover {
+    cursor: pointer;
+}
+.button:hover {
+    cursor: pointer;
+}
